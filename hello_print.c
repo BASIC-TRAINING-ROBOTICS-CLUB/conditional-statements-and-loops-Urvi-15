@@ -1,15 +1,19 @@
 #include<stdio.h>
 void main ()
 {
-    int a;
-    printf("enter the value=");
+    int a,b,c;
+    printf("enter value of a =");
     scanf("%d",&a);
-    if(a%2==0)
+    printf("enter value of b=");
+    scanf("%d",&b);
+    printf("enter value of c=");
+    scanf("%d",&c);
+    if(a==b&&b==c)
     {
-        printf("even number");
+        printf("equilateral triangle ");
     }
     else
     {
-        printf("odd number");
+        printf("not an equilateral triangle ");
     }
 }
