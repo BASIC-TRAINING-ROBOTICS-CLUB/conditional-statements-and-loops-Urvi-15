@@ -8,12 +8,12 @@ void main ()
     scanf("%d",&b);
     printf("enter value of c=");
     scanf("%d",&c);
-    if(a==b&&b==c)
+    if(a^2+b^2==c^2)
     {
-        printf("equilateral triangle ");
+        printf (it is right angle triangle);
     }
     else
     {
-        printf("not an equilateral triangle ");
+        printf("it is not a right angel triangle ");
     }
 }
