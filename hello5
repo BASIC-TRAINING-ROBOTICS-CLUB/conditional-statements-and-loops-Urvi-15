@@ -1,0 +1,31 @@
+#include<stdio.h>
+void main()
+{
+    int x,y;
+    printf("enter value of x=");
+    scanf("%d"&x);
+    printf(" enter value of y=");
+    scanf("%d",&y);
+    if(x>0)
+    {
+        if(y>0)
+        {
+            printf("entered value is in first quadrant ");
+        }
+        else
+        {
+            print("entered value is in fouth quadrant ");
+        }
+    }
+    else
+    {
+        if(y>0)
+        {
+            printf("entered value is in second quadrant ");
+        }
+        else
+        {
+            printf("entered value is in third quadrant ");
+        }
+    }
+}
