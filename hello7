@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+    int n,m=0,i;
+    printf("enter total terms\n=");
+    scanf("%d",&n);
+    printf("fibonacci series\n");
+    for(i=1;i<=n,i++)
+    {
+        printf("%d",fibonacci(m));
+        m++:;
+    }
+}
